@@ -44,7 +44,7 @@ export default function Hero({ isSidebarOpen }: { isSidebarOpen: boolean }) {
       </div>
 
       {/* Social Links (Left Side) */}
-      {window.innerWidth > 550 && <div className="absolute left-10 top-1/2 -translate-y-1/2 flex flex-col gap-6 items-center z-20">
+      {typeof window !== 'undefined' && window.innerWidth > 550 && <div className="absolute left-10 top-1/2 -translate-y-1/2 flex flex-col gap-6 items-center z-20">
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
