@@ -36,6 +36,19 @@ const projects = [
     title: "ChatApp",
     code: "https://github.com/rajnish-oss/Chat-app",
     image: "./chatApp.png",
+  },
+  {
+    id: 6,
+    title: "RQMS",
+    live:"https://rqms-v2.vercel.app/ReceptionistView",
+    code: "https://github.com/rajnish-oss/RQMS",
+    image: "./rqms.png",
+  },
+  {
+    id: 7,
+    title: "JJJ",
+    code: "https://github.com/rajnish-oss/JJJ",
+    image: "./JJJ.png",
   }
 ];
 
